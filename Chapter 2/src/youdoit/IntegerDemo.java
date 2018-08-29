@@ -4,7 +4,7 @@ public class IntegerDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int anInt = 12;
+		int anInt = 1234;
 		byte aByte = 12;
 		short aShort = 12;
 		long aLong = 1234567890987654321L;
