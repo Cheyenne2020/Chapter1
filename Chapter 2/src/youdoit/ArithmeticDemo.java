@@ -1,13 +1,9 @@
-package exercises;
+package youdoit;
 
-import javax.swing.JOptionPane;
-
-public class FreeLance {
+public class ArithmeticDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
 
 	}
 
