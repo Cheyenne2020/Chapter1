@@ -1,6 +1,6 @@
 package exercises;
 
-public class QuartsToGallons {
+public class QuartsToGallonsInteractive {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
