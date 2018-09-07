@@ -17,11 +17,10 @@ public class InchesToFeetInteractive {
 		numberOfFeet = numberOfInchesNeeded / Inches_In_Feet; 
 		numberOfInchesRemaining = numberOfInchesNeeded % Inches_In_Feet; 
 		
-		System.out.print("Please enter an inch >> "); 
-		numberOfInchesNeeded = input.numberOfInchesRemaining(); 
+		System.out.print("Please enter an inche >> "); 
 		
-		System.out.print("The total amount of feet is " + numberOfFeet); 
-		System.out.print(" The total amount of inches is " + numberOfInchesRemaining);
+		System.out.println("The total amount of feet is " + numberOfFeet); 
+		System.out.println(" The total amount of inches is " + numberOfInchesRemaining);
 		
 
 	}
