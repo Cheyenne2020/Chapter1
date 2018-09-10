@@ -1,7 +1,5 @@
 package exercises;
 
-import java.util.Scanner;
-
 public class InchesToFeetInteractive {
 
 	public static void main(String[] args) {
@@ -12,15 +10,12 @@ public class InchesToFeetInteractive {
 		int numberOfInchesNeeded = 86; 
 		int Inches_In_Feet = 12; 
 		
-		Scanner input = new Scanner(System.in);
 		
 		numberOfFeet = numberOfInchesNeeded / Inches_In_Feet; 
 		numberOfInchesRemaining = numberOfInchesNeeded % Inches_In_Feet; 
 		
-		System.out.print("Please enter an inche >> "); 
-		
 		System.out.println("The total amount of feet is " + numberOfFeet); 
-		System.out.println(" The total amount of inches is " + numberOfInchesRemaining);
+		System.out.println("The total amount of inches is " + numberOfInchesRemaining);
 		
 
 	}

@@ -1,7 +1,5 @@
 package exercises;
 
-import java.util.Scanner;
-
 public class QuartsToGallonsInteractive {
 
 	public static void main(String[] args) {
@@ -12,13 +10,8 @@ public class QuartsToGallonsInteractive {
 		int numberOfQuartsNeeded = 18; 
 		int Quarts_In_Gallons = 4; 
 		
-		Scanner input = new Scanner(System.in);
-		
 		numberOfGallons = numberOfQuartsNeeded / Quarts_In_Gallons; 
 		numberOfQuartsRemaining = numberOfQuartsNeeded % Quarts_In_Gallons; 
-		
-		System.out.print("Please enter a quart >> "); 
-		numberOfQuartsNeeded = input.nextnumberOfQuartsRemaining(); 
 		
 		
 		System.out.print("The total amount of gallons is " + numberOfGallons); 
